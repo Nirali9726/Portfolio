@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirali Prajapati</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+            <i class="fa-solid fa-code nav-logo-icon"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- <div class="nav-icons">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H19.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                </svg>
+            </a>
+        </div> -->
+        <div class="nav-icons">
+    <a href="https://github.com/Nirali9726" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/nirali-prajapati-62b9183a0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://leetcode.com/u/Nirali_97/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H19.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+        </svg>
+    </a>
+</div>
+        <button class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Project</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-bg-name">Hi! I'm Codr</div>
+        <img src="av.png" alt="Nirali" class="hero-avatar">
+        <div class="hero-text">
+            <p class="hero-hi">Hi! I'm</p>
+            <h1 class="hero-name">Nirali Prajapati</h1>
+            <p class="hero-role">Frontend Developer &amp; CS Student</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-border">Contact</a>
+                <a href="#about" class="btn btn-fill">Who I'm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-img-wrap">
+                <img src="avatar.jpg" alt="Nirali" class="about-img">
+            </div>
+            <div class="about-text">
+                <p>Hi, I'm <span class="highlight">Nirali Prajapati</span>, a passionate Frontend Developer and Computer Science student. I enjoy building modern, responsive, and interactive web interfaces that provide a great user experience.</p>
+                <p>I focus on clean design, smooth animations, and writing efficient code using modern web technologies. I'm always learning new tools and improving my skills to create better digital products.</p>
+                <p>My goal is to combine creativity with technology to build websites that are both <span class="highlight">beautiful and functional.</span></p>
+                <div class="about-info">
+                    <div class="info-item"><i class="fa-solid fa-graduation-cap"></i><span>CS Student</span></div>
+                    <div class="info-item"><i class="fa-solid fa-laptop-code"></i><span>Web Developer</span></div>
+                    <div class="info-item"><i class="fa-solid fa-location-dot"></i><span>Gujarat, India</span></div>
+                    <div class="info-item"><i class="fa-solid fa-circle-check"></i><span>Open to Work</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="skills" id="skills">
+        <div class="marquee-wrap">
+            <div class="marquee-track">
+                <div class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="skill-chip"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+                <div class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+                <div class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive</div>
+                <div class="skill-chip"><i class="fa-solid fa-paint-brush"></i> UI Design</div>
+                <div class="skill-chip"><i class="fa-brands fa-java"></i> Java</div>
+
+                <div class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="skill-chip"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+                <div class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+                <div class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive</div>
+                <div class="skill-chip"><i class="fa-solid fa-paint-brush"></i> UI Design</div>
+                <div class="skill-chip"><i class="fa-brands fa-java"></i> Java</div>
+
+                <div class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                <div class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="skill-chip"><i class="fa-brands fa-python"></i> Python</div>
+                <div class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+                <div class="skill-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+                <div class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive</div>
+                <div class="skill-chip"><i class="fa-solid fa-paint-brush"></i> UI Design</div>
+                <div class="skill-chip"><i class="fa-brands fa-java"></i> Java</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="todo_list.png" alt="To-Do List">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/to-do_list" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" style="opacity:0.4; cursor:not-allowed;">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> No Live Demo
+                    </a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>To-Do List</h3>
+                <p>A Flask to-do app with login, categories and search functionality. Built with Python backend and clean UI.</p>
+                <div class="tech-tags"><span>HTML</span><span>CSS</span><span>Python</span><span>Flask</span></div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/to-do_list" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="netflix.png" alt="Netflix Clone">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/Netflix_clone" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://nirali9726.github.io/Netflix_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>Netflix Clone</h3>
+                <p>A frontend clone of Netflix with responsive layout, movie cards, and clean UI design.</p>
+                <div class="tech-tags"><span>HTML</span><span>CSS</span></div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/Netflix_clone" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://nirali9726.github.io/Netflix_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="yucca.png" alt="Yucca Clone">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/Yucca_clone" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://nirali9726.github.io/Yucca_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>Yucca Clone</h3>
+                <p>A frontend clone project built with HTML showcasing layout and styling skills.</p>
+                <div class="tech-tags"><span>HTML</span><span>CSS</span></div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/Yucca_clone" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://nirali9726.github.io/Yucca_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="travel.png" alt="Travel Company">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/travel_company" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://nirali9726.github.io/travel_company" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>Travel Company</h3>
+                <p>A travel company website built with CSS featuring modern layout, sections and responsive design.</p>
+                <div class="tech-tags"><span>HTML</span><span>CSS</span></div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/travel_company" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://nirali9726.github.io/travel_company" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="dharohar.png" alt="Dharohar">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/Dharohar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://nirali9726.github.io/Dharohar" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>Dharohar</h3>
+                <p>A React application with Firebase, GSAP animations and drag & drop functionality.</p>
+                <div class="tech-tags">
+                    <span>React</span><span>Firebase</span><span>GSAP</span><span>JavaScript</span>
+                </div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/Dharohar" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://nirali9726.github.io/Dharohar" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-thumb">
+                <img src="insta.png" alt="Instagram Clone">
+                <div class="thumb-overlay">
+                    <a href="https://github.com/Nirali9726/insta_clone" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://nirali9726.github.io/insta_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-body">
+                <h3>Instagram Clone</h3>
+                <p>A frontend Instagram clone with profile layout, post grid, and stories UI built with HTML and CSS.</p>
+                <div class="tech-tags"><span>HTML</span><span>CSS</span></div>
+                <div class="proj-btns">
+                    <a href="https://github.com/Nirali9726/insta_clone" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://nirali9726.github.io/insta_clone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    
+
+    <section class="services" id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>I build modern and interactive websites using HTML, CSS, and JavaScript with clean responsive layouts.</p>
+            </div>
+            <div class="service-card active-card">
+                <i class="fa-solid fa-paint-brush"></i>
+                <h3>UI Design</h3>
+                <p>Creating clean and modern user interfaces with focus on design and usability for great user experience.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Applications</h3>
+                <p>Building functional web applications with dynamic features, smooth performance and clean code.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-grid">
+            <div class="contact-left">
+                <h3>Get In Touch</h3>
+                <p>If you want to work together or have any question, feel free to contact me.</p>
+                <div class="contact-items">
+                    <div class="c-item"><i class="fa-solid fa-envelope"></i><span>niraliprajapati9265@gmail.com</span></div>
+                    <div class="c-item"><i class="fa-solid fa-phone"></i><span>+91 9265832581</span></div>
+                    <div class="c-item"><i class="fa-solid fa-location-dot"></i><span>Gujarat, India</span></div>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="sendMsg(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+                <p class="success-msg" id="successMsg">Thanks! I'll get back to you soon.</p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Nirali Prajapati</p>
+        <!-- <div class="footer-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div> -->
+        <div class="footer-icons">
+    <a href="https://github.com/Nirali9726" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/nirali-prajapati-62b9183a0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://leetcode.com/u/Nirali_97/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H19.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+        </svg>
+    </a>
+</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
